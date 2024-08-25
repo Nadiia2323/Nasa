@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/home.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>NASA</h1>
+      <div class="nav-links">
+        <a href="#" id="home-link">HOME </a>
+        <p>||</p>
+        <a href="#" id="gallery-link">GALLERY </a>
+      </div>
+    </nav>
+
+    <section>
+        <div class="button-random">
+            <h2>Astronomy Picture of the Day</h2>
+            <button id="random" class="glow-on-hover" type="button">RANDOM</button>
+        </div>
+        <div class="filters">
+            <div class="inputs-container">
+    
+    
+                <div id="chooseMonths">
+                    <select name="" id="selectMonth">
+                        <option value="">MONTH</option>
+                        <option value="01">January</option>
+                        <option value="02">February</option>
+                        <option value="03">March</option>
+                        <option value="04">April</option>
+                        <option value="05">May</option>
+                        <option value="06">June</option>
+                        <option value="07">July</option>
+                        <option value="08">August</option>
+                        <option value="09">September</option>
+                    </select>
+                    <div class="checkbox">
+                        <input type="checkbox" id="videoFilter" name="myCheckbox" />
+                        <label for="myCheckbox">video</label>
+                    </div>
+                    <div class="test">
+                        <input type="text" id="keyWordInput" placeholder="key word..." disabled>
+                        <ul class="droplist" id="keyWordList"></ul>
+                    </div>
+                </div>
+    
+                <div class="chooseDate">
+                    <label class="chooseDateLabel" for="datepicker">Choose a date:</label>
+                    <input type="date" id="datepicker" name="datepicker" />
+                </div>
+    
+            </div>
+        </div>
+        <div class="gallery-section">
+       
+          <div id="modal-active">
+          
+            <div class="modal-content">
+              <button class="close-button">x</button>
+              <div>
+              <h5 id="modal-date"></h5>
+              <img id="modal-image" src="" alt="">
+              </div>
+              <div>
+              <h4 id="modal-title"></h2>
+                <p id="modal-text"></p>
+                </div>
+            </div>
+          </div>
+          <div id="loader" class="lds-ripple">
+            <div></div>
+            <div></div>
+          </div>
+            <div class="cards-container">
+              
+              
+              </div>
+         
+            
+            <div id="random-modal-container">
+              
+              
+            </div>
+        </div>
+    </section>
+    <script src="/data.js"  type="module"></script>
+    <script src="/home.js"  type="module"></script>
+    
+  </body>
+</html>
