@@ -441,8 +441,6 @@ document.addEventListener("DOMContentLoaded", function () {
   addClickListeners();
 });
 
-() => {
-  
-}
+
 
 
