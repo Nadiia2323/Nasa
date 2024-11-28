@@ -16,7 +16,7 @@ nav h1 {
   font-weight: 500;
   line-height: normal;
   text-shadow: 2px 2px 4px rgba(12, 12, 13, 0.5);
-  -webkit-text-stroke: 1px #13133b;
+  /* -webkit-text-stroke: 1px #13133b; */
   margin-left: 20px;
 }
 
@@ -107,7 +107,7 @@ nav h1 {
 h2 {
   font-size: 44px;
   color: #fff;
-  -webkit-text-stroke: 1px #13133b;
+  /* -webkit-text-stroke: 1px #13133b; */
   text-shadow: 2px 2px 4px rgba(1, 1, 21, 0.5);
 }
 
